@@ -4,6 +4,6 @@ class Post < ActiveRecord::Base
   validates :summary, length: {maximum: 15}
   validates_inclusion_of :category, in: ["Fiction"]
 
-  
+
 
 end
