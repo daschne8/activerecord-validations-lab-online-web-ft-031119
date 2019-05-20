@@ -8,5 +8,5 @@ class Post < ActiveRecord::Base
       errors.add(:category, :invalid)
     end
   end
-  
+
 end
